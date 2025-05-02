@@ -47,16 +47,22 @@ solidity-fundamentals/
    ```
 
 2. Install dependencies:
+   Go to the curent prooject folder
    ```bash
-   npm install
+   nvm use node
+   npm init -y
+   npm install --save-dev hardhat
    ```
-
-3. Compile the contracts:
+   Check if truffle is installed:
+   ```
+      truffle version
+   ```
+4. Compile the contracts:
    ```bash
    npx hardhat compile
    ```
 
-4. Run tests:
+5. Run tests:
    ```bash
    npx hardhat test
    ```
